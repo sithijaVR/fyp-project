@@ -1,0 +1,30 @@
+.link-bar {
+    background-color: rgba(0,0,0,1) ;
+    color: #fff; /* Text color for the links */
+    padding: 20px; /* Add spacing around the links */
+    display: flex; /* Display links in a horizontal row */
+    justify-content: center; /* Center-align the links horizontally */
+  }
+  
+  .link-bar ul {
+    list-style: none; 
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .link-bar li {
+    margin: 10px 30px; /* Add spacing between each link */
+  }
+  
+  .link-bar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    padding: 10px;
+   
+  }
+  
+  .link-bar a:hover {
+    text-decoration: underline;
+    
+
+  }
