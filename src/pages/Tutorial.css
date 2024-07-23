@@ -1,38 +1,23 @@
+
+
 .tutorialNavigation{
-    background-color:white  ;
-    padding: 300px;
-  }
-  
-  .navigationContainer {
-    list-style-type: none;
-    padding: 10;
-    margin: 0;
-    display: flex;
-  }  
-  .navigationContainer li {
-    flex: 1;
-    text-align: center;
-    margin-right: 60px;
-  }
-  .navigationContainer li a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-   
-    background-image: url('E:/sem8/project work/sensors.jpg');
-    background-size:cover ;
-    background-position: center;
-    padding: 100px;
-    border-radius: 10px;
-    background-color: #b4e4fb;
-    border: 2px solid #ccc;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-  }
-  .navigationContainer li a:hover {
-    
-    border-color: #999;
-    color: #fff;
-  }
-  
-  
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.navigationContainer{
+  display: flex;
+  list-style:none;
+  gap:30px;
+}
+
+.box-link{
+  padding:50px;
+  text-decoration: none;
+  background-color: aqua;
+  border: 1px solid black;
+  text-decoration: none;
+
+}

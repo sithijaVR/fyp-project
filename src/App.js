@@ -13,6 +13,7 @@ import MultipleChoiceQuestions from './pages/Question';
 import Sensors from './pages/Sensors';
 import Actuators from './pages/Actuators';
 import PLCProgramming from './pages/PLCProgramming';
+import LabPracticalVideo from './pages/LabPracticalVideo';
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Datasheet" element={<Datasheet/>}/>
         <Route path="/Labpractical" element={<Labpractical/>}/>
         <Route path="/guided-video" element={<GuidedVideoPage></GuidedVideoPage>} />
+        <Route path="/lab-practice-video" element={<LabPracticalVideo></LabPracticalVideo>} />
         <Route path="/MultipleChoiceQuestions" element={<MultipleChoiceQuestions/>} />
         <Route path='/Sensors' element={<Sensors/>}/>
         <Route path='/Actuators' element={<Actuators/>}/>
